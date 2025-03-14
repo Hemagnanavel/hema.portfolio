@@ -1,0 +1,39 @@
+/* Default background settings */
+body {
+  background-image: url(../public/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 99%;
+  height: 100vh;
+}
+
+/* For Small Screens (Mobile) */
+@media screen and (max-width: 600px) {
+  body {
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+
+/* For Tablets */
+@media screen and (max-width: 1024px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* For Large Screens */
+@media screen and (min-width: 1025px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (max-width:412px) {
+  
+  
+}
