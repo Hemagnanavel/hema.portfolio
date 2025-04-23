@@ -232,7 +232,7 @@ label {
 }
 @media screen and (max-width: 390px) {
     .contact_section {
-        width: 90%;
+        width: 145%;
         padding: 15px;
     }
 }
