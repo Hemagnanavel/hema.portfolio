@@ -1,0 +1,269 @@
+.headerbar{
+    display: flex;
+    position: fixed;
+    width: 220px;
+    margin-top: -20px;
+    height: 45px;
+  
+    padding-top: 20px;
+    background-color: #000000;
+}
+.role{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menubar{
+    height: 32px;
+    width: 60px;
+    padding-top: 14px;
+    color:#FFFFFF;  
+}
+.menubar:hover{
+    color: #cb005f;
+}
+.link-style {
+    text-decoration: none; 
+    color: inherit;
+  }
+.name{
+color:white;
+font-size: 25px;
+padding-left: 20px;
+padding-top: 10px;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+}
+.main_section{
+    padding-top: 150px;
+}
+.text {
+    color: #cc005f;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+ul{
+    padding-top: 80px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+/* Sidebar */
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+   background-color: black;
+   height: 174px;
+   width: 50px;
+    color: white;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  /* Close Button Inside Sidebar */
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-icon {
+    font-size: 24px;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .close-icon:hover {
+    color: #CC005F;
+  }
+  
+  /* Menu List */
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  
+  .menu-list li {
+    padding: 10px 0;
+  }
+  
+  .menu-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .menu-list li a:hover {
+    color: #CC005F;
+  }
+  
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .menu-list li {
+    padding: 10px 0;
+  }
+  
+  .menu-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .menu-list li a:hover {
+    color: #CC005F;
+  }
+  
+  /* Disabled Menu Item */
+  .disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Overlay to Close Sidebar */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+.p_text{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "lora-regular", serif;
+}
+.more_about{
+  display: flex;
+  justify-content: center;
+}
+.about{
+ 
+    margin-top: 50px;
+    align-items: center;
+    border: 2px solid #cb005f;
+    height: 50px;
+    width: 175px;
+    background-color: #FF0077;
+    text-align: center;
+   color: #FFFFFF;
+    border: none;
+ 
+}
+
+
+.social-media{
+    
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social-media:hover {
+    color: #FF0077; 
+  }
+.icon_section{
+    display: flex;
+    justify-content: center ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.display{
+    display: none;
+}
+.menu-button{
+    background: none;
+    border: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .headerbar {
+      width: 20%;
+      height: 50px;
+  }
+  .name {
+    padding-top: 16px;
+      font-size: 20px;
+  }
+  .sidebar {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerbar {
+      height: 45px;
+      padding: 5px 15px;
+  }
+  .name {
+      font-size: 18px;
+      padding-top: 20px;
+  }
+  .text {
+      font-size: 25px;
+  }
+  .about {
+      width: 150px;
+      height: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headerbar {
+      height: 40px;
+      padding: 5px 10px;
+  }
+  .menubar{
+    font-size: 10px;
+  }
+  .name {
+      font-size: 16px;
+  }
+  .text {
+      font-size: 22px;
+  }
+  .about {
+      width: 130px;
+      height: 40px;
+  }
+  .sidebar {
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .name {
+      font-size: 14px;
+      margin-left: -12px;
+      padding-top: 20px;
+  }
+  .text {
+      font-size: 20px;
+  }
+  .about {
+      width: 120px;
+      height: 35px;
+  }
+}
