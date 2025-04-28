@@ -86,12 +86,12 @@ function Contact() {
       <div className="contact_end">
         <div className="copyright">
           <span>© Copyright 2024 </span>
-          <span>Design by <a className="link_text link" href="https://www.linkedin.com/in/hema-g-778a48325">Hemalatha</a></span>
+          <span>Design by <a className="link_text link" href="https://www.linkedin.com/in/hemalatha-g-778a48325/">Hemalatha</a></span>
           <div className="contact_icons">
-            <a className="link_text link" href="https://www.linkedin.com/in/hema-g-778a48325">
+            <a className="link_text link" href="https://www.linkedin.com/in/hemalatha-g-778a48325/">
               <FaLinkedinIn />
             </a>
-            <a className="link_text link" href="https://www.instagram.com/hl_littleprincess/">
+            <a className="link_text link" href="https://www.instagram.com/hema__gnanavel/">
               <FaInstagram />
             </a>
             <a className="link_text link" href="https://github.com/Hemagnanavel">

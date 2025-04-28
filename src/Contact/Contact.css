@@ -194,7 +194,7 @@ label {
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
     .contact_section {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -213,7 +213,7 @@ label {
 
 @media screen and (max-width: 480px) {
     .contact_section {
-        width: 99%;
+        width: 100%;
         padding: 15px;
     }
     .contact_heading {
@@ -232,7 +232,7 @@ label {
 }
 @media screen and (max-width: 390px) {
     .contact_section {
-        width: 145%;
+        width: 100%;
         padding: 15px;
     }
 }

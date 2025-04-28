@@ -88,7 +88,7 @@ const Header = () => {
             {/* Social Media Icons */}
             <div className="icon_section">
               <a
-                href="https://www.linkedin.com/in/hemalatha-gnanavel-778a48325/"
+                href="https://www.linkedin.com/in/hemalatha-g-778a48325/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -102,7 +102,7 @@ const Header = () => {
                 <FaGithub className="social-media" />
               </a>
               <a
-                href="https://www.instagram.com/hl_littleprincess/"
+                href="https://www.instagram.com/hema__gnanavel/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

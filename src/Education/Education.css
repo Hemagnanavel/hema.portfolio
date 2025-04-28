@@ -107,7 +107,7 @@
 /* 📌 Smallest Screens (360px and below) */
 @media screen and (max-width: 360px) {
     .resume_section {
-        width: 145%;
+        width: 112%;
         padding: 5px;
     }
     .resume_text {
